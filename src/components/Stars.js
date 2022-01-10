@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Star from "./Star";
+import React from 'react';
+import PropTypes from 'prop-types';
+import Star from './Star';
 
 function range(limit) {
   const arr = [];
@@ -12,7 +12,7 @@ function range(limit) {
 
 const Stars = ({ count }) => {
   return (
-    typeof count === "number" &&
+    typeof count === 'number' &&
     count >= 1 &&
     count <= 5 && (
       <ul className="card-body-stars u-clearfix">
